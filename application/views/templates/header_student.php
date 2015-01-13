@@ -6,11 +6,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>CSFREB</title>
-    <link href="<?php echo css_url('bootstrap.min.css');?>" rel="stylesheet">
-    <link href="<?php echo css_url('font-awesome.min.css');?>" rel="stylesheet">
-    <link href="<?php echo css_url('prettyPhoto.css');?>" rel="stylesheet">
-    <link href="<?php echo css_url('animate.css');?>" rel="stylesheet">
-    <link href="<?php echo css_url('main.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/bootstrap.min.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/font-awesome.min.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/prettyPhoto.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/animate.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/main.css');?>" rel="stylesheet">
 </head><!--/head-->
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top main-header" role="banner">
@@ -22,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo images_url('mybarangay_logo_55px.png');?>" alt="logo"></a>
+               <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url('mybarangay_logo_55px.png');?>" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
