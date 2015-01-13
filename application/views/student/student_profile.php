@@ -1,4 +1,4 @@
-    <?php $this->load->view('header', array('num' => 1)); ?>
+
     <section id="title" class="section-title">
         <div class="container">
             <div class="row">
