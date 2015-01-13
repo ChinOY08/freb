@@ -1,0 +1,35 @@
+body {
+  background: url(../images/login1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.modal-footer {   border-top: 0px; }
+
+@media (min-width: 768px) { 
+  .modal-dialog {
+    width: 420px;
+    margin: 5% 0 0 0;
+  }
+}
+
+.modal-body {
+  z-index:100;
+}
+.login-img {
+  margin-left: 14%;
+  margin-top: 4%;
+}
+.login-btn {
+  background-color: rgb(240, 125, 0);
+  border-color: rgb(240, 100, 0);
+}
+.login-btn:hover {
+  background-color: rgb(240, 100, 0);
+  border-color: rgb(240, 125, 0);
+}
+.display-none
+{
+	display:none;
+}
